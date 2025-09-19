@@ -1,0 +1,12 @@
+body{font-family:Inter,system-ui,Arial;background:#0f172a;color:#e6eef8;padding:20px}
+.app{max-width:1000px;margin:0 auto;background:#071025;padding:18px;border-radius:12px}
+.auth-card{margin-bottom:16px;padding:10px;background:#061220;border-radius:8px}
+input{padding:8px;border-radius:6px;border:1px solid #123;background:#07162a;color:#fff}
+button{padding:8px 10px;border-radius:8px;border:none;background:#1e40af;color:white;cursor:pointer}
+.messages{height:320px;overflow:auto;border:1px solid #123;padding:10px;border-radius:8px;background:#031023}
+.msg-row{display:flex;flex-direction:column;margin:8px 0}
+.msg-row .bubble{display:inline-block;padding:8px;border-radius:8px;max-width:70%}
+.msg-row.mine .bubble{background:#0ea5a5;align-self:flex-end}
+.msg-row.theirs .bubble{background:#1f2937;align-self:flex-start}
+.user-item{padding:8px;border-radius:6px;cursor:pointer;margin-top:6px;background:#041022}
+.user-item.selected{outline:2px solid #334155}
